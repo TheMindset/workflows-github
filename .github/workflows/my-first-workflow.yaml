@@ -11,7 +11,7 @@ jobs:
       - name: |
         run:
           ls -al
-          ruby -v
+          hostaname
           yarn -v
 
 
