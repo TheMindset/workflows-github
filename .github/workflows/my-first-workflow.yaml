@@ -1,0 +1,16 @@
+name: First Workflow
+
+on: [push]
+
+jobs: 
+  run-shell-cmd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo world
+        run : echo "hello, world"
+      - name: |
+          ls -al
+          ruby -v
+          yarn -v
+
+
