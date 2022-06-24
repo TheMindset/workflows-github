@@ -8,10 +8,11 @@ jobs:
     steps:
       - name: echo world
         run : echo "hello, world"
-      - name: |
+      - name: execute multiline script
         run:
           ls -al
-          hostname
           yarn -v
+          
+
 
 
