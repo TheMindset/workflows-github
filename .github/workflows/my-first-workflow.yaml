@@ -9,6 +9,7 @@ jobs:
       - name: echo world
         run : echo "hello, world"
       - name: |
+        run:
           ls -al
           ruby -v
           yarn -v
