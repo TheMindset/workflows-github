@@ -9,9 +9,11 @@ jobs:
       - name: echo world
         run : echo "hello, world"
       - name: execute multiline script
-        run:
+        run: |
           ls -al
           yarn -v
+          ruby -v
+          hostname
           
 
 
